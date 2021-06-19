@@ -1,0 +1,19 @@
+@font-face{
+	font-family: Hero;
+	src: url("../assert/font/Hero.otf");
+}
+
+@font-face{
+	font-family: Hero Light;
+	src: url("../assert/font/Hero Light.otf");
+}
+
+@font-face{
+	font-family: Cocogoose Pro-trial;
+	src: url("../assert/font/Cocogoose Pro-trial.ttf");
+}
+
+@font-face{
+	font-family: Cocogoose Pro Light-trial;
+	src: url("../assert/font/Cocogoose Pro Light-trial.ttf");
+}

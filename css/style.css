@@ -1,0 +1,773 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+html,body{
+	overflow-x: hidden;
+}
+header{
+	background-color: #fff;
+	height: 100px;
+	padding: 20px;
+	display: flex;
+}
+header #logoHeader{
+	width: 50%;
+	margin-left: 20px;
+}
+
+header #logoHeader img{
+	width: 300px;
+}
+
+header #navbar{
+	margin-left: 50px;
+	width: auto;
+}
+
+header #navbar ul{
+	width: auto;
+	display: flex;
+	border-top: 1.5px solid #ee3465;
+	border-bottom: 1.5px solid #ee3465;
+	margin-top: 30px;
+}
+
+header #navbar ul li{
+	padding: 8px 20px 8px 20px;
+	list-style: none;
+	text-align: center;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+header #navbar ul li:hover{
+	background-color: #ee3465;
+	color: #fff;
+}
+
+main #carousel{
+	margin-top: -40px;
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+main #carousel #banner{
+	width: 100%;
+}
+
+main #carousel #banner img{
+	width: 100%;
+}
+
+
+main #carousel #textBanner{
+    width: 50%;
+    left: 95px;
+    top: 170px;
+    position: absolute;
+}
+
+main #carousel #textBanner img{
+	width: 70%;
+}
+
+main #tentangKami{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+main #tentangKami .content{
+	width: 50%;
+	height: auto;
+	margin: auto;
+	display: flex;
+}
+
+main #tentangKami .content #gambar{
+	width: 50%;
+}
+
+main #tentangKami .content #gambar .item{
+	margin-left: auto;
+	margin-bottom: 20px;
+	width: 90%;
+	height: 175px;
+	background-size: cover;
+	background-color: #fff;
+	border-radius: 10px;
+}
+main #tentangKami .content #informasi{
+	width: auto;
+	max-width: 43%;
+	height: 100%;
+	margin-left: 70px;
+}
+
+
+main #tentangKami .content #informasi .icon img{
+	width: 60px;
+	filter: invert(28%) sepia(89%) saturate(2201%) hue-rotate(326deg) brightness(96%) contrast(93%);
+}
+main #tentangKami .content #informasi .title{
+	margin-top: 55px;
+}
+main #tentangKami .content #informasi .title h1{
+	font-family: Cocogoose Pro-trial;
+	color: #ee3465;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+main #tentangKami .content #informasi .deskripsi{
+	font-family: Hero;
+	font-size: 14px;
+}
+
+main #tentangKami .content #informasi .deskripsi p{
+	text-align:	justify;
+	margin-bottom: 10px;
+	font-weight: 1px;
+}
+
+main #menu{
+	width: 100%;
+	background-color: #fafbfb;
+	padding-top: 15px;
+	z-index: -200;
+}
+
+main #menu .title{
+	margin-top: 100px;
+	width: 100%;
+}
+
+main #menu .title .logo{
+	width: 60px;
+	margin: auto;
+	filter: invert(28%) sepia(89%) saturate(2201%) hue-rotate(326deg) brightness(96%) contrast(93%);
+}
+
+main #menu .title .text{
+	font-family: Cocogoose Pro-trial;
+	color: #ee3465;
+	font-size: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+main #menu .listMenu{
+	position: relative;
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 60px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+main #menu .listMenu img{
+	position: absolute;
+	width: 100%;
+	right: -50px;
+	bottom: 20px;
+	transform: scaleX(-1);
+	width: 20%;
+	filter: invert(100%) sepia(1%) saturate(3106%) hue-rotate(180deg) brightness(89%) contrast(111%);
+}
+main #menu .listMenu .item{
+	border-radius: 10px;
+	padding: 5px;
+	width: 45%;
+	height: 200px;
+	margin: auto auto 40px 0;
+	background-color: #fff;
+	box-shadow: 5px 5px 20px lightgray;
+	display: flex;
+	/*z-index: 2;*/
+}
+
+
+main #menu .listMenu .item .img{
+	border-radius: 10px;
+	background-size: cover;
+	width: 40%;
+	height: 65%;
+	margin-top: 25px;
+	margin-left: 25px;
+	background-color: #fff;
+}
+
+main #menu .listMenu .item .info{
+	margin-top: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+	width: 60%;
+}
+main #menu .listMenu .item .info .infoMakanan{
+	min-height: 30px;
+}
+main #menu .listMenu .item .info .namaMakanan,main #menu .listMenu .item .info .namaHarga{
+	font-family: Cocogoose Pro-trial;
+	color: #ee3465;
+	font-size: 20px;
+}
+
+main #menu .listMenu .item .info .infoMakanan,main #menu .listMenu .item .info .infoHarga{
+	text-align: justify;
+	font-family:Hero;
+	font-size: 14px;
+}
+
+main #menu .listMenu .item .info .namaHarga{
+	margin-top: 10px;
+}
+
+
+main #menu .testimoni{
+	position: relative;
+	width: 100%;
+	height: 500px;
+	padding-top: 100px;
+}
+main #menu .testimoni .logo{
+	width:auto;
+	margin: auto;
+	display: flex;
+}
+main #menu .testimoni .logo i.i1{
+	font-size: 40px;
+	margin-left: auto;
+	color: #ee3465;
+}
+
+main #menu .testimoni .logo i.i2{
+	font-size: 40px;
+	margin-left: 50px;
+	margin-right: auto;
+	color: #ee3465;
+}
+main #menu .testimoni .titleTestimoni,main #menu .hubungi .titleHubungi{
+	width: 100%;
+	margin-top: 10px;
+	text-align: center;
+}
+main #menu .testimoni .titleTestimoni span,main #menu .hubungi .titleHubungi span{
+	font-family: Cocogoose Pro-trial;
+	color: #ee3465;
+	font-size: 30px;
+}
+main #menu .testimoni .items{
+	width: 100%;
+	height: auto;
+	border-top: 30px;
+	display:-webkit-inline-box;
+	overflow-x: scroll;
+	z-index: 2px;
+}
+
+main #menu .testimoni .items .item{
+	width: 350px;
+	height: 350px;
+	margin: 30px 30px auto 30px;
+}
+
+main #menu .testimoni .items .item .img{
+	width: 125px;
+	height: 125px;
+	background-size: cover;
+	border-radius: 100%;
+	margin: auto;
+}
+
+main #menu .testimoni .items .item .nama{
+	margin-top: 10px;
+	text-align: center;
+	font-family: Cocogoose Pro-trial ;
+}
+main #menu .testimoni .items .item .bintang .itemTestimoni{
+	display: flex;
+	margin-left: 40%;
+}
+main #menu .testimoni .items .item .bintang .itemTestimoni i{
+	color: #ee3465;
+	font-size: 12px;
+	margin-left: 1px;
+}
+main #menu .testimoni .items .item .komentar{
+	margin-top: 10px;
+	text-align: center;
+	word-wrap: break-word;
+	font-size: 13px;
+	font-family: Hero Light;
+}
+
+main #menu .testimoni .backgroundTestimoni1,main #menu .testimoni .backgroundTestimoni2{
+	position: absolute;
+	font-size: 80px;
+	width: auto;
+	height: auto;
+	color: #eeecee;
+}
+
+main #menu .testimoni .backgroundTestimoni2{
+	right: 0;
+	bottom: 10px;
+}
+
+main #menu .hubungi{
+	margin-top: 20px;
+	width: 100%;
+	height:auto;
+	background-color: #fff;
+}
+
+main #menu .hubungi .img{
+	padding-top: 20px;
+	width: 70px;
+	height: auto;
+	margin: auto;
+	filter: invert(28%) sepia(89%) saturate(2201%) hue-rotate(326deg) brightness(96%) contrast(93%);
+}
+main #menu .hubungi .informasiHubungi{
+	margin-top: 30px;
+	width: 100%;
+	height: 400px;
+	background-color: #ee3472;
+	padding-left:150px;
+}
+main #menu .hubungi .informasiHubungi .imgHubungi{
+	padding-top: 60px;
+	display: flex;
+	width: 75%;
+	border-bottom: 1px solid #fff;
+}
+main #menu .hubungi .informasiHubungi .imgHubungi img{
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+main #menu .hubungi .informasiHubungi .info {
+	width: 75%;
+	display: flex;
+}
+
+main #menu .hubungi .informasiHubungi .info div{
+	width: 100%;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: 15px;
+}
+
+main #menu .hubungi .informasiHubungi .info div span{
+	font-family: Cocogoose Pro-trial ;
+	color: #fff;
+	font-size: 16px;
+}
+
+main #menu .hubungi .informasiHubungi .info div.alamat .isi{
+	word-wrap: break-word;
+	margin-left: 0px;
+	margin-top: 20px;
+	color: #fff;
+	font-size: 15px;
+	font-family:Hero;
+}
+main #menu .hubungi .informasiHubungi .info div.kontak .isi{
+	margin-left: -15px;
+	margin-top: 20px;
+
+}
+main #menu .hubungi .informasiHubungi .info div.kontak .isi .item{
+	margin-top: 5px;
+}
+main #menu .hubungi .informasiHubungi .info div.kontak .isi .item span{
+	font-family: Hero;
+}
+main #menu .hubungi .informasiHubungi .info div.kontak .isi .item img{
+	width: 20px;
+	filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(145deg) brightness(105%) contrast(105%);
+}
+
+main #menu .hubungi .informasiHubungi .info div.jambuka .isi{
+	margin-top: 20px;
+	margin-left: -20px;
+	display: flex;
+}
+main #menu .hubungi .informasiHubungi .info div.jambuka .isi div#hari{
+	display: flex;
+	flex-direction: column;
+}
+main #menu .hubungi .informasiHubungi .info div.jambuka .isi div#jam{
+	margin-left: -100px;
+	display: flex;
+	flex-direction: column;
+}
+main #menu .hubungi .informasiHubungi .info div.jambuka .isi span{
+	font-family: Hero;
+}
+main #menu .hubungi .informasiHubungi .info div.pesan .isi{
+	margin-top: 20px;
+}
+main #menu .hubungi .informasiHubungi .info div.pesan .isi img{
+	width: 50px;
+	margin-left: -15px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  /* For tablets: */
+  main{
+  	overflow-x: hidden;
+  }
+  header{
+  	display: flex;
+  	flex-direction: column;
+  }
+	header #logoHeader{
+		width: 15%;
+		margin-left: 20px;
+	}
+	header #navbar{
+		margin-top: 0px;
+		margin-left: 0;
+	}
+	header #navbar ul li{
+		font-size: 1.2vw;
+		margin: auto;
+	}
+	main #carousel{
+		margin-top: 50px;
+	}
+	main #carousel #textBanner{
+    	width: 50%;
+    	left: 10vw;
+    	top: 5vh;
+    	position: absolute;
+	}
+	main #tentangKami{
+		margin-top: 25px;
+	}
+	main #tentangKami .content{
+		width: 100%;
+		display: flex;
+	}
+	main #tentangKami .content #gambar{
+		display: flex;
+		flex-direction: column;
+		width: 70%;
+		height: 250px;
+	}
+	main #tentangKami .content #informasi{
+		width: auto;
+		max-width: 70%;
+		height: 100%;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	main #tentangKami .content #informasi .icon img{
+		width: 30px;
+	}
+	main #tentangKami .content #informasi .title{
+		margin-top: 10px;
+	}
+	main #tentangKami .content #informasi .title h1{
+		font-size: 3vw;
+	}
+
+	main #tentangKami .content #informasi .deskripsi{
+		font-size: 3vw;
+	}
+	main #menu{
+		width: 100%;
+		background-color: #fafbfb;
+		padding-top: 15px;
+		z-index: -200;
+	}
+
+	main #menu .title{
+		margin-top: 10px;
+		width: 100%;
+	}
+
+	main #menu .title .logo{
+		width: 30px;
+	}
+
+	main #menu .title .text{
+		font-size: 3vw;
+	}
+
+	main #menu .listMenu{
+		position: relative;
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		padding: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	main #menu .listMenu img{
+		position: absolute;
+		width: 100%;
+		right: 0px;
+		bottom: 20px;
+		transform: scaleX(-1);
+		width: 20%;
+		filter: invert(100%) sepia(1%) saturate(3106%) hue-rotate(180deg) brightness(89%) contrast(111%);
+	}
+	main #menu .listMenu .item{
+		border-radius: 0px;
+		padding: 5px;
+		width: 100%;
+		height: auto;
+		margin: auto auto 40px 0;
+		background-color: #fff;
+		box-shadow: 5px 5px 20px lightgray;
+		display: flex;
+		z-index: 2;
+	}
+
+
+	main #menu .listMenu .item .img{
+		border-radius: 10px;
+		background-size: cover;
+		width: 40%;
+		height: 100px;
+		margin-top: 10px;
+		margin-left: 25px;
+		background-color: #fff;
+	}
+
+	main #menu .listMenu .item .info{
+		padding-bottom: 10px;
+		margin-top: 10px;
+		margin-left: 25px;
+		margin-right: 25px;
+		width: 60%;
+	}
+	main #menu .listMenu .item .info .infoMakanan{
+		min-height: 20px;
+	}
+	main #menu .listMenu .item .info .namaMakanan,main #menu .listMenu .item .info .namaHarga{
+		font-family: Cocogoose Pro-trial;
+		color: #ee3465;
+		font-size: 3vw;
+	}
+
+	main #menu .listMenu .item .info .infoMakanan,main #menu .listMenu .item .info .infoHarga{
+		text-align: justify;
+		font-family:Hero;
+		font-size: 2vw;
+	}
+
+	main #menu .listMenu .item .info .namaHarga{
+		margin-top: 10px;
+	}
+
+
+	main #menu .testimoni{
+		position: relative;
+		width: 100%;
+		height: auto;
+		padding-top: 10px;
+	}
+	main #menu .testimoni .logo{
+		width:auto;
+		margin: auto;
+		display: flex;
+	}
+	main #menu .testimoni .logo i.i1{
+		font-size: 15px;
+		margin-left: auto;
+		color: #ee3465;
+	}
+
+	main #menu .testimoni .logo i.i2{
+		font-size: 15px;
+		margin-left: 25px;
+		margin-right: auto;
+		color: #ee3465;
+	}
+	main #menu .testimoni .titleTestimoni,main #menu .hubungi .titleHubungi{
+		width: 100%;
+		margin-top: 10px;
+		text-align: center;
+	}
+	main #menu .testimoni .titleTestimoni span,main #menu .hubungi .titleHubungi span{
+		font-family: Cocogoose Pro-trial;
+		color: #ee3465;
+		font-size: 4vw;
+	}
+	main #menu .testimoni .items{
+		width: 100%;
+		height: auto;
+		border-top: 30px;
+		display:block ruby;
+		overflow-x: scroll;
+	}
+
+	main #menu .testimoni .items .item{
+		width: 300px;
+		height: 300px;
+		margin: 40px 40px auto 40px;
+	}
+
+	main #menu .testimoni .items .item .img{
+		width: 100px;
+		height: 100px;
+		background-size: cover;
+		border-radius: 100%;
+		margin: auto;
+	}
+
+	main #menu .testimoni .items .item .nama{
+		margin-top: 10px;
+		font-size: 2vw;
+		text-align: center;
+		font-family: Cocogoose Pro-trial ;
+	}
+	main #menu .testimoni .items .item .bintang .itemTestimoni{
+		display: flex;
+		margin-left: 40%;
+	}
+	main #menu .testimoni .items .item .bintang .itemTestimoni i{
+		color: #ee3465;
+		font-size: 12px;
+		margin-left: 1px;
+	}
+	main #menu .testimoni .items .item .komentar{
+		margin-top: 10px;
+		text-align: center;
+		word-wrap: break-word;
+		font-size: 3vw;
+		font-family: Hero Light;
+	}
+
+	main #menu .testimoni .backgroundTestimoni1,main #menu .testimoni .backgroundTestimoni2{
+		position: absolute;
+		font-size: 20px;
+		width: auto;
+		height: auto;
+		color: #eeecee;
+	}
+
+	main #menu .testimoni .backgroundTestimoni2{
+		right: 0;
+		bottom: 0;
+	}
+
+	main #menu .hubungi{
+		margin-top: 0px;
+		width: 100%;
+		height:auto;
+		background-color: #fff;
+	}
+
+	main #menu .hubungi .img{
+		padding-top: 20px;
+		width: 30px;
+		height: auto;
+		margin: auto;
+		filter: invert(28%) sepia(89%) saturate(2201%) hue-rotate(326deg) brightness(96%) contrast(93%);
+	}
+	main #menu .hubungi .informasiHubungi{
+		margin-top: 30px;
+		padding-bottom: 10px;
+		width: 100%;
+		height: auto;
+		background-color: #ee3472;
+		padding-left:0px;
+	}
+	main #menu .hubungi .informasiHubungi .imgHubungi{
+		padding-top: 10px;
+		display: flex;
+		width: 100%;
+		border-bottom: 1px solid #fff;
+	}
+	main #menu .hubungi .informasiHubungi .imgHubungi img{
+		width: 40vw;
+		margin-bottom: 10px;
+		margin-left: 10px;
+	}
+
+	main #menu .hubungi .informasiHubungi .info {
+		width: 100%;
+		display: flex;
+	}
+
+	main #menu .hubungi .informasiHubungi .info div{
+		width: 100%;
+		margin-top: 15px;
+		margin-right: auto;
+		margin-left: 15px;
+	}
+
+	main #menu .hubungi .informasiHubungi .info div span{
+		font-family: Cocogoose Pro-trial ;
+		color: #fff;
+		font-size: 1vh;
+	}
+	main #menu .hubungi .informasiHubungi .info div.alamat .isi{
+		word-wrap: break-word;
+		margin-left: 0px;
+		margin-top: 15px;
+		color: #fff;
+		font-size: 0.9vh;
+		font-family:Hero;
+	}
+	main #menu .hubungi .informasiHubungi .info div.kontak .isi{
+		margin-left: -15px;
+		margin-top: 15px;
+
+	}
+	main #menu .hubungi .informasiHubungi .info div.kontak .isi .item{
+		margin-top: 5px;
+	}
+	main #menu .hubungi .informasiHubungi .info div.kontak .isi .item span{
+		font-family: Hero;
+		font-size: 0.9vh;
+	}
+	main #menu .hubungi .informasiHubungi .info div.kontak .isi .item img{
+		width: 10px;
+		filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(145deg) brightness(105%) contrast(105%);
+	}
+
+	main #menu .hubungi .informasiHubungi .info div.jambuka .isi{
+		margin-top: 5px;
+		display: flex;
+	}
+	main #menu .hubungi .informasiHubungi .info div.jambuka .isi div#hari{
+		margin-left: 15px;
+		display: flex;
+		flex-direction: column;
+	}
+	main #menu .hubungi .informasiHubungi .info div.jambuka .isi div#jam{
+		margin-left: -20px;
+		display: flex;
+		flex-direction: column;
+	}
+	main #menu .hubungi .informasiHubungi .info div.jambuka .isi span{
+		font-family: Hero;
+		font-size: 0.6vh;
+	}
+	main #menu .hubungi .informasiHubungi .info div.pesan .isi{
+		margin-top: 20px;
+	}
+	main #menu .hubungi .informasiHubungi .info div.pesan .isi img{
+		width: 30px;
+		margin-left: -15px;
+	}
+
+}
